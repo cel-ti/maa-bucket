@@ -11,5 +11,13 @@
     },
     "persist": [
         "config"
+    ],
+    "bin" : [
+        [
+            "MBA.Cli.exe", "maa-blue-archive"
+        ],
+        [
+            "MBA.Cli.exe", "maa-blue-archive-auto", "-d"
+        ]
     ]
 }

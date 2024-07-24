@@ -9,5 +9,13 @@
         "url": "https://github.com/overflow65537/MAA_SnowBreak/releases/download/v$version/MSBA-win-x86_64-v$version.zip",
         "extract_dir": "MSBA-win-x86_64-v$version"
     },
-    "persist": "config"
+    "persist": "config",
+    "bin" : [
+        [
+            "MaaPiCli.exe", "maa-snowbreak"
+        ],
+        [
+            "MaaPiCli.exe", "maa-snowbreak-auto", "-d"
+        ]
+    ]
 }

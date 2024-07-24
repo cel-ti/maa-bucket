@@ -1,9 +1,0 @@
-{
-    "homepage": "https://github.com/MaaXYZ/MCCA",
-    "version": "0.9.6",
-    "license": "MIT",
-    "checkver": "github",
-    "persist": [
-        "config"
-    ]
-}

@@ -15,5 +15,10 @@
         "if (!(Test-Path \"$persist_dir\\config\\gui.json\")) { New-Item -ItemType File -Path \"$persist_dir\\config\\gui.json\" }",
         "$configContent = '{\"VersionUpdate.AutoDownloadUpdatePackage\": \"False\", \"VersionUpdate.AutoInstallUpdatePackage\": \"False\"}'",
         "Set-Content -Path \"$persist_dir\\config\\gui.json\" -Value $configContent"
+    ],
+    "bin" : [
+        [
+            "MAA.exe", "maa-arknights"
+        ]
     ]
 }

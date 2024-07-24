@@ -9,5 +9,13 @@
         "url": "https://github.com/WakPd/MAA_NIKKE/releases/download/v$version/MAANKE-win-x86_64-v$version.zip",
         "extract_dir": "MAANKE-win-x86_64-v$version"
     },
-    "persist": "config"
+    "persist": "config",
+    "bin" : [
+        [
+            "MaaPiCli.exe", "maa-nikke"
+        ],
+        [
+            "MaaPiCli.exe", "maa-nikke-auto", "-d"
+        ]
+    ]
 }
