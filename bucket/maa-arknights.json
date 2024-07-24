@@ -1,17 +1,15 @@
 {
     "homepage": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
-    "description" : "Maa Assistant for Arknights, do not install unless you know what you are doing.",
+    "description": "Maa Assistant for Arknights, do not install unless you know what you are doing.",
     "version": "5.4.1",
-    "hash" : "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
+    "hash": "60dd68f7173fddf32989012d555ebfafad80945f40316c7ffe7e90e142351b88",
     "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v5.4.1/MAA-v5.4.1-win-x64.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MAA-v$version-win-x64.zip",
         "extract_dir": "MAA-v$version-win-x64"
     },
-    "persist": [
-        "config"
-    ],
+    "persist": "config",
     "post_install": [
         "if (!(Test-Path \"$persist_dir\\config\")) { New-Item -ItemType Directory -Path \"$persist_dir\\config\" }",
         "if (!(Test-Path \"$persist_dir\\config\\gui.json\")) { New-Item -ItemType File -Path \"$persist_dir\\config\\gui.json\" }",
@@ -19,4 +17,3 @@
         "Set-Content -Path \"$persist_dir\\config\\gui.json\" -Value $configContent"
     ]
 }
-
