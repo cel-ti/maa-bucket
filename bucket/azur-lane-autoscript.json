@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/LmeSzinc/AzurLaneAutoScript",
+    "version": "0.4.6",
+    "hash" : "323387f9c3524c61499a692e5f46dc42fae0b9415a323de896c0ae6033f5778f",
+    "url": "https://github.com/LmeSzinc/AzurLaneAutoScript/releases/download/v2024.04.26/AlasApp_0.4.6_full.7z",
+    "extract_dir" : "AlasApp_$version_full",
+    "license": "GPL-3.0-only",
+    "checkver": "github",
+    "persist": [
+        "config"
+    ],
+    "bin" : [
+        [
+            "Alas.exe", "azur-lane-autoscript"
+        ]
+    ]
+}
