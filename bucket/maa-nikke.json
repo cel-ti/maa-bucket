@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/WakPd/MAA_NIKKE",
+    "license": "MIT",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/WakPd/MAA_NIKKE/releases/download/v$version/M9A-win-x86_64-v$version.zip",
+        "extract_dir": "MAANKE-win-x86_64-v$version"
+    },
+    "persist": [
+        "config"
+    ]
+}
