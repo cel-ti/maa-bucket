@@ -1,0 +1,15 @@
+{
+    "homepage": "https://github.com/MaaXYZ/MAALimbusCompany",
+    "version": "0.7.9",
+    "license": "MIT",
+    "hash" : "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
+    "url": "https://github.com/MaaXYZ/MAALimbusCompany/releases/download/v0.7.9/MAALimbusCompany-win-x86_64-v0.7.9.zip",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/MaaXYZ/MAALimbusCompany/releases/download/v$version/MAALimbusCompany-win-x86_64-v$version.zip",
+        "extract_dir": "MAALimbusCompany-win-x86_64-v$version"
+    },
+    "persist": [
+        "config"
+    ]
+}
