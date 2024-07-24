@@ -1,9 +1,12 @@
 {
     "homepage": "https://github.com/WakPd/MAA_NIKKE",
     "license": "MIT",
+    "version": "1.8.3",
+    "hash" : "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
+    "url": "https://github.com/WakPd/MAA_NIKKE/releases/download/v0.0.1/MAANKE-win-x86_64-v0.0.1.zip",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/WakPd/MAA_NIKKE/releases/download/v$version/M9A-win-x86_64-v$version.zip",
+        "url": "https://github.com/WakPd/MAA_NIKKE/releases/download/v$version/MAANKE-win-x86_64-v$version.zip",
         "extract_dir": "MAANKE-win-x86_64-v$version"
     },
     "persist": [
