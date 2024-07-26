@@ -1,23 +1,24 @@
 {
     "homepage": "https://github.com/MaaXYZ/MCCA",
-    "version": "0.9.6",
+    "version": "0.9.8",
     "license": "MIT",
-    "hash" : "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
-    "url": "https://github.com/MaaXYZ/MCCA/releases/download/v0.9.6/MCCA-win-x86_64-v0.9.6.zip",
+    "hash": "9240c374612ccc98b5428435ac2ef94e3543f5774ce30211692375c80d765bb6",
+    "url": "https://github.com/MaaXYZ/MCCA/releases/download/v0.9.8/MCCA-win-x86_64-v0.9.8.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MaaXYZ/MCCA/releases/download/v$version/MCCA-win-x86_64-v$version.zip",
         "extract_dir": "MCCA-win-x86_64-v$version"
     },
-    "persist": [
-        "config"
-    ],
-    "bin" : [
+    "persist": "config",
+    "bin": [
         [
-            "MaaPiCli.exe", "maa-crosscore"
+            "MaaPiCli.exe",
+            "maa-crosscore"
         ],
         [
-            "MaaPiCli.exe", "maa-crosscore-auto", "-d"
+            "MaaPiCli.exe",
+            "maa-crosscore-auto",
+            "-d"
         ]
     ]
 }
