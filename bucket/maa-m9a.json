@@ -1,23 +1,24 @@
 {
     "homepage": "https://github.com/MaaXYZ/M9A",
-    "version": "1.8.3",
-    "hash" : "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
-    "url": "https://github.com/MaaXYZ/M9A/releases/download/v1.8.3/M9A-win-x86_64-v1.8.3.zip",
+    "version": "1.8.4",
+    "hash": "bd198334c8a1a2b3a43e646f063b023efca15e9125ac7305e4f4e2c5e9a277d0",
+    "url": "https://github.com/MaaXYZ/M9A/releases/download/v1.8.4/M9A-win-x86_64-v1.8.4.zip",
     "license": "MIT",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MaaXYZ/M9A/releases/download/v$version/M9A-win-x86_64-v$version.zip",
         "extract_dir": "M9A-win-x86_64-v$version"
     },
-    "persist": [
-        "config"
-    ],
-    "bin" : [
+    "persist": "config",
+    "bin": [
         [
-            "MaaPiCli.exe", "maa-m9a"
+            "MaaPiCli.exe",
+            "maa-m9a"
         ],
         [
-            "MaaPiCli.exe", "maa-m9a-auto", "-d"
+            "MaaPiCli.exe",
+            "maa-m9a-auto",
+            "-d"
         ]
     ]
 }
