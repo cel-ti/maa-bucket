@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/Aues6uen11Z/HonkaiHelper",
+    "version": "2.0.0-beta",
+    "license": "MIT",
+    "hash" : "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
+    "url": "https://github.com/Aues6uen11Z/HonkaiHelper/releases/download/v2.0.0-beta/DaCapo.zip",
+    "checkver": "github",
+    "bin" : [
+        [
+            "DaCapo.exe", "honkaihelper"
+        ]
+    ]
+}
