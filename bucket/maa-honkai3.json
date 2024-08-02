@@ -2,22 +2,23 @@
     "homepage": "https://github.com/MaaXYZ/MAABH3",
     "version": "0.7.0",
     "license": "MIT",
-    "hash" : "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
+    "hash": "9a23ca1baaa7de0d5586205f3dc9da637a0433a68999bc4ca4f7615ad567c135",
     "url": "https://github.com/MaaXYZ/MAABH3/releases/download/v0.7.0/MAABH3-win-x86_64-v0.7.0.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MaaXYZ/MAABH3/releases/download/v$version/MAABH3-win-x86_64-v$version.zip",
         "extract_dir": "MAABH3-win-x86_64-v$version"
     },
-    "persist": [
-        "config"
-    ],
-    "bin" : [
+    "persist": "config",
+    "bin": [
         [
-            "MaaPiCli.exe", "maa-honkai3"
+            "MaaPiCli.exe",
+            "maa-honkai3"
         ],
         [
-            "MaaPiCli.exe", "maa-honkai3-auto", "-d"
+            "MaaPiCli.exe",
+            "maa-honkai3-auto",
+            "-d"
         ]
     ]
 }
