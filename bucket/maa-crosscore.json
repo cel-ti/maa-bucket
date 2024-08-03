@@ -14,11 +14,6 @@
         [
             "MaaPiCli.exe",
             "maa-crosscore"
-        ],
-        [
-            "MaaPiCli.exe",
-            "maa-crosscore-auto",
-            "-d"
         ]
     ]
 }

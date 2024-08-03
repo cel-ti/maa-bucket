@@ -14,11 +14,6 @@
         [
             "MaaPiCli.exe",
             "maa-honkai3"
-        ],
-        [
-            "MaaPiCli.exe",
-            "maa-honkai3-auto",
-            "-d"
         ]
     ]
 }

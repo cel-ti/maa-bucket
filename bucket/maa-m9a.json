@@ -14,11 +14,6 @@
         [
             "MaaPiCli.exe",
             "maa-m9a"
-        ],
-        [
-            "MaaPiCli.exe",
-            "maa-m9a-auto",
-            "-d"
         ]
     ]
 }

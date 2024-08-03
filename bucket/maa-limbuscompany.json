@@ -15,9 +15,6 @@
     "bin" : [
         [
             "MaaPiCli.exe", "maa-limbus-company"
-        ],
-        [
-            "MaaPiCli.exe", "maa-limbus-company-auto", "-d"
         ]
     ]
 }

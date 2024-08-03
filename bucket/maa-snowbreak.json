@@ -14,11 +14,6 @@
         [
             "MaaPiCli.exe",
             "maa-snowbreak"
-        ],
-        [
-            "MaaPiCli.exe",
-            "maa-snowbreak-auto",
-            "-d"
         ]
     ]
 }

@@ -13,9 +13,5 @@
     "bin" : [
         [
             "MaaPiCli.exe", "maa-nikke"
-        ],
-        [
-            "MaaPiCli.exe", "maa-nikke-auto", "-d"
         ]
-    ]
 }
