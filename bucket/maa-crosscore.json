@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/MaaXYZ/MCCA",
-    "version": "1.4",
+    "version": "1.4.2",
     "license": "MIT",
-    "hash": "cbd3446e20c4bc41f8452c829780df2d77ded73c35ae11b01049cd7d000db65b",
-    "url": "https://github.com/MaaXYZ/MCCA/releases/download/v1.4/MCCA-win-x86_64-v1.4.zip",
+    "hash": "72ca6eecaa909420d84eddd2dc00347ec2bcd34e0360e2e63b31e792949833e6",
+    "url": "https://github.com/MaaXYZ/MCCA/releases/download/v1.4.2/MCCA-win-x86_64-v1.4.2.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MaaXYZ/MCCA/releases/download/v$version/MCCA-win-x86_64-v$version.zip",
