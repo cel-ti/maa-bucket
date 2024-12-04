@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/MaaXYZ/M9A",
+    "version": "2.4.12",
+    "hash": "f02caf95f9ba3ef1b6b8c67543933c4bd352a1f7a743ce232bdb16cc5ee845b6",
+    "url": "https://github.com/MaaXYZ/M9A/releases/download/v2.4.12/M9A-win-x86_64-v2.4.12.zip",
+    "license": "MIT",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/MaaXYZ/M9A/releases/download/v$version/M9A-win-x86_64-v$version.zip",
+        "extract_dir": "M9A-win-x86_64-v$version"
+    },
+    "persist": "config",
+    "bin": [
+        [
+            "MaaPiCli.exe",
+            "maa-m9a"
+        ]
+    ]
+}
