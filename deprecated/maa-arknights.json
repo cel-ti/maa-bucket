@@ -21,5 +21,6 @@
             "MAA.exe",
             "maa-arknights"
         ]
-    ]
+    ],
+    "license" : "AGPL-3.0"
 }
