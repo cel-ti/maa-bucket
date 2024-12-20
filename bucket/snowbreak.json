@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/overflow65537/MAA_SnowBreak",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "license": "MIT",
-    "hash": "33ddac087f809d9a4c92c495aa932dafd7510006011ca376f1b89abcde2bb978",
-    "url": "https://github.com/overflow65537/MAA_SnowBreak/releases/download/v1.4.3/MSBA-win-x86_64-v1.4.3.zip",
+    "hash": "4ee9c1c3da340051ea568116f8dc978088a1275a98327d73bc0647a20a1d014a",
+    "url": "https://github.com/overflow65537/MAA_SnowBreak/releases/download/v1.4.4/MSBA-win-x86_64-v1.4.4.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/overflow65537/MAA_SnowBreak/releases/download/v$version/MSBA-win-x86_64-v$version.zip",
