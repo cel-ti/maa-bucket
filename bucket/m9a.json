@@ -14,6 +14,10 @@
         [
             "MaaPiCli.exe",
             "maa-m9a"
+        ],
+        [
+            "MFAWPF.exe",
+            "maa-m9a-gui"
         ]
     ]
 }
