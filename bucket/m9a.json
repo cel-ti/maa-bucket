@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/MaaXYZ/M9A",
-    "version": "3.0.0",
-    "hash": "08dacbf83fa42ea2cb674f78d2dbd6513858ae0e55cdd4865051b83ce7bfca4b",
-    "url": "https://github.com/MaaXYZ/M9A/releases/download/v3.0.0/M9A-win-x86_64-v3.0.0.zip",
+    "version": "3.1.0",
+    "hash": "4ae1c2d874469589a5ceccd9872ca39428c5ce79a2ff5e5e7ccec5852e906185",
+    "url": "https://github.com/MaaXYZ/M9A/releases/download/v3.1.0/M9A-win-x86_64-v3.1.0.zip",
     "license": "MIT",
     "checkver": "github",
     "autoupdate": {
