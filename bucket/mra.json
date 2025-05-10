@@ -2,7 +2,7 @@
     "homepage": "https://github.com/Saratoga-Official/MRA",
     "version": "2.5.3",
     "license": "MIT",
-    "hash": "736188782f4b90e42f97ef2a78ffc2b5002a4e50170f0265b90608c2312c2ba7",
+    "hash": "3bd329bac4dd06dafd7c9f54d76a760bf63660c9048d59980131ccaeff87ddc0",
     "url": "https://github.com/Saratoga-Official/MRA/releases/download/v2.5.3/MRA-win-x86_64-v2.5.3.zip",
     "checkver": "github",
     "autoupdate": {
