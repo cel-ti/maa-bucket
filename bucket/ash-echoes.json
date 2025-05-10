@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/moulai/MaaAshEchoes",
+    "version": "1.0.0",
+    "license": "MIT",
+    "hash": "",
+    "url": "https://github.com/moulai/MaaAshEchoes/releases/download/v1.0.0/MaaAshEchoes-win-x86_64-v1.0.0.zip",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/moulai/MaaAshEchoes/releases/download/v$version/MaaAshEchoes-win-x86_64-v$version.zip",
+        "extract_dir": "MaaAshEchoes-win-x86_64-v$version"
+    },
+    "persist": "config",
+    "bin": [
+        [
+            "MaaAshEchoes.exe",
+            "maa-ashechoes"
+        ]
+    ]
+}
