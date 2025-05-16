@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/MAA1999/M9A",
-    "version": "3.6.1",
-    "hash": "68e60917bc0be995aa12d8fa8afd95cd8d010c1b0c5ab0eebe38a8386a673f54",
-    "url": "https://github.com/MAA1999/M9A/releases/download/v3.6.1/M9A-win-x86_64-v3.6.1.zip",
+    "version": "3.6.2",
+    "hash": "5090e903a44e8f37bbccb76fdde904090ed2e785c2e49edaff73fc9813b72416",
+    "url": "https://github.com/MAA1999/M9A/releases/download/v3.6.2/M9A-win-x86_64-v3.6.2.zip",
     "license": "MIT",
     "checkver": "github",
     "autoupdate": {
