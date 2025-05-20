@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/kqcoxn/MaaNewMoonAccompanying",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "license": "MIT",
-    "hash": "2efc9b29a95624f775b6f40f6f443ddba0b35680f5479df3292905b10103ef87",
-    "url": "https://github.com/kqcoxn/MaaNewMoonAccompanying/releases/download/v1.0.5/MaaNewMoonAccompany-win-x86_64-v1.0.5.zip",
+    "hash": "33a53134a852cd521cbf53896da4dc91808f95308e157c56c06c8fd385725a75",
+    "url": "https://github.com/kqcoxn/MaaNewMoonAccompanying/releases/download/v1.0.6/MaaNewMoonAccompany-win-x86_64-v1.0.6.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/kqcoxn/MaaNewMoonAccompanying/releases/download/v$version/MaaNewMoonAccompany-win-x86_64-v$version.zip",
