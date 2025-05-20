@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/overflow65537/MAA_Punish",
-    "version": "2.7.16",
+    "version": "2.7.17",
     "license": "MIT",
-    "hash": "c8e0cc344be38d94af641b032695b30970db5902f07b8ce899691245000b26fd",
-    "url": "https://github.com/overflow65537/MAA_Punish/releases/download/v2.7.16/MPA-win-x86_64-v2.7.16.zip",
+    "hash": "1bf3aaca9555c8ccf6d273dc63d7d84094ac9a7c9ef588bbff174fcaac8191d0",
+    "url": "https://github.com/overflow65537/MAA_Punish/releases/download/v2.7.17/MPA-win-x86_64-v2.7.17.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/overflow65537/MAA_Punish/releases/download/v$version/MPA-win-x86_64-v$version.zip",
