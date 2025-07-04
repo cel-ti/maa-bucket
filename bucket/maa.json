@@ -9,7 +9,7 @@
         "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MAA-v$version-win-x64.zip",
         "extract_dir": "MAA-v$version-win-x64"
     },
-    "persist": "config",
+    "persist": ["config", "data"],
     "post_install": [
         "if (!(Test-Path \"$persist_dir\\config\")) { New-Item -ItemType Directory -Path \"$persist_dir\\config\" }",
         "if (!(Test-Path \"$persist_dir\\config\\gui.json\")) { New-Item -ItemType File -Path \"$persist_dir\\config\\gui.json\" }",
