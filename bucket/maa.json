@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/MaaAssistantArknights/MaaAssistantArknights",
     "description": "Maa Assistant for Arknights, do not install unless you know what you are doing.",
-    "version": "5.27.3",
-    "hash": "42818d0e2493bc304f8dda1949115928ade49700a52f03593b30ad6ea88efb1e",
-    "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v5.27.3/MAA-v5.27.3-win-x64.zip",
+    "version": "5.27.4",
+    "hash": "5f3f4c7c4df4b0654013bf2f645fd9bcd140d5ab2d7ca2c1c3ba307e65b876b3",
+    "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v5.27.4/MAA-v5.27.4-win-x64.zip",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MAA-v$version-win-x64.zip",
