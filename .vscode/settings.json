@@ -9,9 +9,24 @@
     "powershell.codeFormatting.ignoreOneLineBlock": true,
     "json.schemas": [
         {
+            "fileMatch": ["**/*.meta.json"],
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "hasmaapicli": { "type": ["boolean", "null"] },
+                    "guiexe": { "type": "string" },
+                    "strippingIdentifiers": { "type": "array", "items": { "type": "string" } },
+                    "autostartIdentifier": { "type": "string" },
+                    "postCompleteIdentifier": { "type": "string" }
+                },
+                "additionalProperties": true
+            }
+        },
+        {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
             "fileMatch": [
-                "bucket/**/*.json"
+                "bucket/**/*.json",
+                "!bucket/**/*.meta.json"
             ]
         }
     ],
